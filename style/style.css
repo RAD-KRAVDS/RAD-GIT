@@ -108,6 +108,7 @@ body {
 .card-section{
     padding: 50px;
     width: 100vw;
+    overflow-x: hidden;
     text-align: center;
 
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -211,6 +212,12 @@ h4 {
 
 @media only screen and (max-width: 600px) {
 
+    .card-section{
+        padding: 0;
+    }
+    .card{
+        margin: 0%;
+    }
     .about-section .left,
     .about-section .right {
 
